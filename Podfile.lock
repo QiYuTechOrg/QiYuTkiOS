@@ -1,0 +1,56 @@
+PODS:
+  - AliAuthSDK (1.1.0.41-bc)
+  - AlibcTradeSDK (4.0.1.6)
+  - AliLinkPartnerSDK (4.0.0.24)
+  - BCUserTrack (5.2.0.18-appkeys):
+    - UTDID
+  - Cache (6.0.0)
+  - mtopSDK (3.0.0.3-BC)
+  - securityGuard (5.4.191)
+  - UTDID (1.5.0.91)
+  - WindVane (8.5.0.46-bc11):
+    - WindVane/Basic (= 8.5.0.46-bc11)
+    - WindVane/Core (= 8.5.0.46-bc11)
+    - WindVane/WindVane (= 8.5.0.46-bc11)
+  - WindVane/Basic (8.5.0.46-bc11)
+  - WindVane/Core (8.5.0.46-bc11)
+  - WindVane/WindVane (8.5.0.46-bc11)
+
+DEPENDENCIES:
+  - AliAuthSDK (= 1.1.0.41-bc)
+  - AlibcTradeSDK (= 4.0.1.6)
+  - AliLinkPartnerSDK (= 4.0.0.24)
+  - BCUserTrack (= 5.2.0.18-appkeys)
+  - Cache
+  - mtopSDK (= 3.0.0.3-BC)
+  - securityGuard (= 5.4.191)
+  - UTDID (= 1.5.0.91)
+  - WindVane (= 8.5.0.46-bc11)
+
+SPEC REPOS:
+  http://repo.baichuan-ios.taobao.com/baichuanSDK/AliBCSpecs.git:
+    - AliAuthSDK
+    - AlibcTradeSDK
+    - AliLinkPartnerSDK
+    - BCUserTrack
+    - mtopSDK
+    - securityGuard
+    - UTDID
+    - WindVane
+  https://github.com/CocoaPods/Specs:
+    - Cache
+
+SPEC CHECKSUMS:
+  AliAuthSDK: 7018e8f3c8be3382e60f69d3b517c7de34c351e0
+  AlibcTradeSDK: 9a3e7af6cd648dd1f85684e82694c213fe48dad2
+  AliLinkPartnerSDK: c5778cdfdcee7bfe342238d39a77766184d36a46
+  BCUserTrack: 49251c6fb7c65cbbc221a492bbd3f3e142f1fb0f
+  Cache: 4ca7e00363fca5455f26534e5607634c820ffc2d
+  mtopSDK: d6fdf81730342a69be920b576541c7bb81a683d5
+  securityGuard: 9c04c44a3b663f36e15064042abfc107fa07133c
+  UTDID: 7860884a89209c8f1306740ff22cf117d72b6d8a
+  WindVane: 56e096abae757397ccd3accb66a959f3ffcbf949
+
+PODFILE CHECKSUM: 24fa7b3a43119c049f5f936a84043431dc445063
+
+COCOAPODS: 1.9.3

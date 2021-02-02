@@ -1,0 +1,988 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		020BA06924FA394F00D3AC20 /* UtilsWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020BA06824FA394F00D3AC20 /* UtilsWebView.swift */; };
+		02226280258AFFD50061A471 /* TbkItemDetailContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0222627F258AFFD50061A471 /* TbkItemDetailContentView.swift */; };
+		0226933B24E27A570051AF6A /* vendor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0226933A24E27A570051AF6A /* vendor.m */; };
+		0226934324E2D0650051AF6A /* AppUserKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0226934224E2D0650051AF6A /* AppUserKeys.swift */; };
+		0226936424E4203A0051AF6A /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0226936324E420390051AF6A /* libc++.tbd */; };
+		0231F13B2579DFB000E04839 /* CouponGuessYouLike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231F13A2579DFB000E04839 /* CouponGuessYouLike.swift */; };
+		0231F14D257A6F4900E04839 /* GroupContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231F14C257A6F4900E04839 /* GroupContentView.swift */; };
+		0231F150257A71E700E04839 /* SmsLoginContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231F14F257A71E700E04839 /* SmsLoginContentView.swift */; };
+		02458DF724D80378007EB2EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02458DF624D80378007EB2EC /* AppDelegate.swift */; };
+		02458DF924D80378007EB2EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02458DF824D80378007EB2EC /* SceneDelegate.swift */; };
+		02458DFB24D80378007EB2EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02458DFA24D80378007EB2EC /* ContentView.swift */; };
+		02458DFD24D8037B007EB2EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02458DFC24D8037B007EB2EC /* Assets.xcassets */; };
+		02458E0024D8037B007EB2EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02458DFF24D8037B007EB2EC /* Preview Assets.xcassets */; };
+		02458E0324D8037B007EB2EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02458E0124D8037B007EB2EC /* LaunchScreen.storyboard */; };
+		0249C01624E1939400B96841 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0249C01524E1939400B96841 /* libz.tbd */; };
+		0249C01824E193A100B96841 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0249C01724E193A100B96841 /* libsqlite3.tbd */; };
+		0249C01A24E193AD00B96841 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0249C01924E193AD00B96841 /* CoreTelephony.framework */; };
+		0249C01C24E193B700B96841 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0249C01B24E193B700B96841 /* CoreMotion.framework */; };
+		0249C02024E197AD00B96841 /* yw_1222_baichuan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0249C01F24E197AD00B96841 /* yw_1222_baichuan.jpg */; };
+		0249C02224E1982E00B96841 /* mtopsdk_configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0249C02124E1982E00B96841 /* mtopsdk_configuration.plist */; };
+		025F3B5D257DB9C3007D4AE2 /* TbkRecommendContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025F3B5C257DB9C3007D4AE2 /* TbkRecommendContentView.swift */; };
+		025F3B60257DD5F3007D4AE2 /* TbkFastBuy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025F3B5F257DD5F3007D4AE2 /* TbkFastBuy.swift */; };
+		025F3B6E257DD855007D4AE2 /* TbkAllCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025F3B6D257DD855007D4AE2 /* TbkAllCategory.swift */; };
+		0266E6932583799A0089BE46 /* TbkSearchContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0266E6922583799A0089BE46 /* TbkSearchContentView.swift */; };
+		02686B352573A3F80095D5B5 /* CouponContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02686B342573A3F80095D5B5 /* CouponContentView.swift */; };
+		0270AF4E25051D7A00F4AC8E /* PrivacyContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0270AF4D25051D7A00F4AC8E /* PrivacyContentView.swift */; };
+		0270AF5025051E3400F4AC8E /* AppPrivacyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0270AF4F25051E3400F4AC8E /* AppPrivacyWebView.swift */; };
+		0270AF522505200800F4AC8E /* AppCheckNewVersionLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0270AF512505200800F4AC8E /* AppCheckNewVersionLogic.swift */; };
+		02741D86258C998A00E0235C /* MyGenV2Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02741D85258C998A00E0235C /* MyGenV2Urls.swift */; };
+		02741D89258C999800E0235C /* MyGenV2Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02741D88258C999800E0235C /* MyGenV2Types.swift */; };
+		02741D8C258C99A700E0235C /* MyGenV2Slots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02741D8B258C99A700E0235C /* MyGenV2Slots.swift */; };
+		02741D91258C9EBD00E0235C /* MyGenSlotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02741D90258C9EBD00E0235C /* MyGenSlotHelper.swift */; };
+		027A572F250918670053BED1 /* TaoBaoAuthSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027A572E250918670053BED1 /* TaoBaoAuthSheet.swift */; };
+		027A57312509229D0053BED1 /* AppWebViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027A57302509229D0053BED1 /* AppWebViewUtils.swift */; };
+		027A5733250929E30053BED1 /* UsageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027A5732250929E30053BED1 /* UsageContentView.swift */; };
+		027A57352509DFEC0053BED1 /* ShareContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027A57342509DFEC0053BED1 /* ShareContentView.swift */; };
+		027A5737250A20C40053BED1 /* AppImageUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027A5736250A20C40053BED1 /* AppImageUtils.swift */; };
+		027A5739250A51A70053BED1 /* AppDisplayLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027A5738250A51A70053BED1 /* AppDisplayLogic.swift */; };
+		027A573B250A51C00053BED1 /* ApiLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027A573A250A51C00053BED1 /* ApiLogic.swift */; };
+		027A573D250A562B0053BED1 /* UserLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027A573C250A562B0053BED1 /* UserLogic.swift */; };
+		027F983E24EEAC53007EDFEE /* QuestionSearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027F983D24EEAC53007EDFEE /* QuestionSearchField.swift */; };
+		027F984224EEC35E007EDFEE /* MyActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027F984124EEC35E007EDFEE /* MyActivityIndicator.swift */; };
+		027F984424EED29D007EDFEE /* AppSettingsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027F984324EED29D007EDFEE /* AppSettingsContentView.swift */; };
+		02882F26257B6D15001BA09A /* AppConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02882F25257B6D15001BA09A /* AppConst.swift */; };
+		02882F5D257B86C6001BA09A /* MyImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02882F5C257B86C6001BA09A /* MyImageCache.swift */; };
+		02882F60257B9632001BA09A /* TbkNineNineContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02882F5F257B9632001BA09A /* TbkNineNineContentView.swift */; };
+		02882F66257BB9D9001BA09A /* GenericInfiniteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02882F65257BB9D9001BA09A /* GenericInfiniteList.swift */; };
+		0291CC22256E66C7007F2396 /* HomeAnnouncementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0291CC21256E66C7007F2396 /* HomeAnnouncementView.swift */; };
+		0291CC3F256E8324007F2396 /* ShopStoreItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0291CC3E256E8324007F2396 /* ShopStoreItemView.swift */; };
+		02AE0A7D25C2F484001A56BC /* UserAuthContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AE0A7C25C2F484001A56BC /* UserAuthContentView.swift */; };
+		02B0AA6A250E1D1C00A58048 /* PushLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B0AA69250E1D1C00A58048 /* PushLogic.swift */; };
+		02B707A824E7DC2700B55512 /* MyGenObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B707A724E7DC2700B55512 /* MyGenObservable.swift */; };
+		02B707AC24E8298700B55512 /* ShopSearchDetailContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B707AB24E8298600B55512 /* ShopSearchDetailContentView.swift */; };
+		02BEA3E42590370A00440419 /* MessageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BEA3E32590370A00440419 /* MessageContentView.swift */; };
+		02BEA3FA2590A19600440419 /* UserInfoContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BEA3F92590A19600440419 /* UserInfoContentView.swift */; };
+		02BF97EE258CEA9500539A4F /* TbkBrandListContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BF97ED258CEA9500539A4F /* TbkBrandListContentView.swift */; };
+		02BF97F1258CF0F900539A4F /* TbkBrandGoodsListContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BF97F0258CF0F900539A4F /* TbkBrandGoodsListContentView.swift */; };
+		02D1BBC62584FC990048F710 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02D1BBC52584FC990048F710 /* AlipaySDK.framework */; };
+		02D1BBD4258501A90048F710 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 02D1BBD3258501A90048F710 /* AlipaySDK.bundle */; };
+		02D6784D257F7FD30039CA72 /* TbkOrderContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D6784C257F7FD30039CA72 /* TbkOrderContentView.swift */; };
+		02D6785B257FB15F0039CA72 /* SharedDt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D6785A257FB15E0039CA72 /* SharedDt.swift */; };
+		02E0889A24E5255D0032E6DD /* UtilsLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E0889924E5255D0032E6DD /* UtilsLogin.swift */; };
+		02E0889E24E528560032E6DD /* MeContentLoggedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E0889D24E528560032E6DD /* MeContentLoggedView.swift */; };
+		02E088A024E528730032E6DD /* MeContentLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E0889F24E528730032E6DD /* MeContentLoginView.swift */; };
+		02E088A424E529A90032E6DD /* MeContentUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E088A324E529A90032E6DD /* MeContentUtils.swift */; };
+		02E088A624E52A780032E6DD /* TaoBaoAuthLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E088A524E52A780032E6DD /* TaoBaoAuthLogic.swift */; };
+		02E088AA24E530E00032E6DD /* AppUserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E088A924E530E00032E6DD /* AppUserSettings.swift */; };
+		02E088AE24E6C3820032E6DD /* ItemDetailContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E088AD24E6C3820032E6DD /* ItemDetailContentView.swift */; };
+		02E64F7A258B576800D4D2C0 /* TbkShared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E64F79258B576800D4D2C0 /* TbkShared.swift */; };
+		02E64F7D258B637600D4D2C0 /* TbkSearchResultContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E64F7C258B637600D4D2C0 /* TbkSearchResultContentView.swift */; };
+		02E64F80258B9D4F00D4D2C0 /* TbkSubCategoryContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E64F7F258B9D4F00D4D2C0 /* TbkSubCategoryContentView.swift */; };
+		02EAEC1624ED5114009AE997 /* MsgContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EAEC1524ED5114009AE997 /* MsgContentView.swift */; };
+		02EAEC1824ED51EC009AE997 /* MyMsgWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EAEC1724ED51EC009AE997 /* MyMsgWebView.swift */; };
+		02EAEC1C24ED5A7D009AE997 /* MyKeFuWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EAEC1B24ED5A7D009AE997 /* MyKeFuWebView.swift */; };
+		02EAEC2024ED657E009AE997 /* MyAllOrderWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EAEC1F24ED657E009AE997 /* MyAllOrderWebView.swift */; };
+		02EAEC2624ED744E009AE997 /* OrderContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EAEC2524ED744E009AE997 /* OrderContentView.swift */; };
+		02FB8D4B250118AA00262829 /* TBAuthContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FB8D4A250118AA00262829 /* TBAuthContentView.swift */; };
+		4BF50045C55B57E351315DF8 /* MeContentMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF501E785FFAA7558828BCC /* MeContentMainView.swift */; };
+		4BF500B859CC8CAC26FDAFE3 /* MyConsts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF50CFD68B5760E74FD7603 /* MyConsts.swift */; };
+		4BF500BA8FC60B24E5271B07 /* WebDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF501782BA35178F6C9188A /* WebDemo.swift */; };
+		4BF5016386E0802F301A9604 /* MyItemDetailWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF5019BCB3057C1772068EA /* MyItemDetailWebView.swift */; };
+		4BF5025FB8B913B723E12DC2 /* MyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF5096640ADDB0A8632C5ED /* MyWebView.swift */; };
+		4BF50461181A11FF82B29C03 /* MySearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF50A9C920300678E16941B /* MySearchField.swift */; };
+		4BF50A4622B68B7CC004E2B8 /* MyItemSearchWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF50B881579A6486C06457D /* MyItemSearchWebView.swift */; };
+		4BF50BF420CBF373CF9DD45A /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF5008C70829E996CCE70F5 /* HomeHeaderView.swift */; };
+		4BF50F0ACFE84C6616FB0B27 /* HomeContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF50FACF235D663B055A461 /* HomeContentView.swift */; };
+		4BF50F66A2C5134142A970FB /* ShopSearchContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF50AEF899D0B333A1ABAFA /* ShopSearchContentView.swift */; };
+		4BF50FE81F740E6BECBD256B /* CouponNavButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF508551F85268CE5A2AE16 /* CouponNavButtonsView.swift */; };
+		9C047E719094EA3C9B13C9E5 /* Pods_tbk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F59A80E3D8055D740E427FB0 /* Pods_tbk.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		020BA06824FA394F00D3AC20 /* UtilsWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilsWebView.swift; sourceTree = "<group>"; };
+		0222627F258AFFD50061A471 /* TbkItemDetailContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TbkItemDetailContentView.swift; sourceTree = "<group>"; };
+		0226933924E27A560051AF6A /* tbk-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tbk-Bridging-Header.h"; sourceTree = "<group>"; };
+		0226933A24E27A570051AF6A /* vendor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vendor.m; sourceTree = "<group>"; };
+		0226933C24E27AC20051AF6A /* vendor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vendor.h; sourceTree = "<group>"; };
+		0226934224E2D0650051AF6A /* AppUserKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUserKeys.swift; sourceTree = "<group>"; };
+		0226936324E420390051AF6A /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		0231F13A2579DFB000E04839 /* CouponGuessYouLike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponGuessYouLike.swift; sourceTree = "<group>"; };
+		0231F14C257A6F4900E04839 /* GroupContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupContentView.swift; sourceTree = "<group>"; };
+		0231F14F257A71E700E04839 /* SmsLoginContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmsLoginContentView.swift; sourceTree = "<group>"; };
+		023799F924EA53BF0082A14E /* tbk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = tbk.entitlements; sourceTree = "<group>"; };
+		02458DF324D80378007EB2EC /* tbk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tbk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02458DF624D80378007EB2EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		02458DF824D80378007EB2EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		02458DFA24D80378007EB2EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		02458DFC24D8037B007EB2EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02458DFF24D8037B007EB2EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		02458E0224D8037B007EB2EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02458E0424D8037B007EB2EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02458E0A24D80440007EB2EC /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		0249C01524E1939400B96841 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		0249C01724E193A100B96841 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		0249C01924E193AD00B96841 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		0249C01B24E193B700B96841 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		0249C01F24E197AD00B96841 /* yw_1222_baichuan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yw_1222_baichuan.jpg; sourceTree = "<group>"; };
+		0249C02124E1982E00B96841 /* mtopsdk_configuration.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = mtopsdk_configuration.plist; sourceTree = "<group>"; };
+		025F3B5C257DB9C3007D4AE2 /* TbkRecommendContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TbkRecommendContentView.swift; sourceTree = "<group>"; };
+		025F3B5F257DD5F3007D4AE2 /* TbkFastBuy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TbkFastBuy.swift; sourceTree = "<group>"; };
+		025F3B6D257DD855007D4AE2 /* TbkAllCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TbkAllCategory.swift; sourceTree = "<group>"; };
+		0266E6922583799A0089BE46 /* TbkSearchContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TbkSearchContentView.swift; sourceTree = "<group>"; };
+		02686B342573A3F80095D5B5 /* CouponContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponContentView.swift; sourceTree = "<group>"; };
+		0270AF4D25051D7A00F4AC8E /* PrivacyContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyContentView.swift; sourceTree = "<group>"; };
+		0270AF4F25051E3400F4AC8E /* AppPrivacyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPrivacyWebView.swift; sourceTree = "<group>"; };
+		0270AF512505200800F4AC8E /* AppCheckNewVersionLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCheckNewVersionLogic.swift; sourceTree = "<group>"; };
+		02741D85258C998A00E0235C /* MyGenV2Urls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGenV2Urls.swift; sourceTree = "<group>"; };
+		02741D88258C999800E0235C /* MyGenV2Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGenV2Types.swift; sourceTree = "<group>"; };
+		02741D8B258C99A700E0235C /* MyGenV2Slots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGenV2Slots.swift; sourceTree = "<group>"; };
+		02741D90258C9EBD00E0235C /* MyGenSlotHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGenSlotHelper.swift; sourceTree = "<group>"; };
+		027A572E250918670053BED1 /* TaoBaoAuthSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaoBaoAuthSheet.swift; sourceTree = "<group>"; };
+		027A57302509229D0053BED1 /* AppWebViewUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppWebViewUtils.swift; sourceTree = "<group>"; };
+		027A5732250929E30053BED1 /* UsageContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageContentView.swift; sourceTree = "<group>"; };
+		027A57342509DFEC0053BED1 /* ShareContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareContentView.swift; sourceTree = "<group>"; };
+		027A5736250A20C40053BED1 /* AppImageUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppImageUtils.swift; sourceTree = "<group>"; };
+		027A5738250A51A70053BED1 /* AppDisplayLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDisplayLogic.swift; sourceTree = "<group>"; };
+		027A573A250A51C00053BED1 /* ApiLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiLogic.swift; sourceTree = "<group>"; };
+		027A573C250A562B0053BED1 /* UserLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLogic.swift; sourceTree = "<group>"; };
+		027F983D24EEAC53007EDFEE /* QuestionSearchField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionSearchField.swift; sourceTree = "<group>"; };
+		027F984124EEC35E007EDFEE /* MyActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyActivityIndicator.swift; sourceTree = "<group>"; };
+		027F984324EED29D007EDFEE /* AppSettingsContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsContentView.swift; sourceTree = "<group>"; };
+		02882F25257B6D15001BA09A /* AppConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConst.swift; sourceTree = "<group>"; };
+		02882F5C257B86C6001BA09A /* MyImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyImageCache.swift; sourceTree = "<group>"; };
+		02882F5F257B9632001BA09A /* TbkNineNineContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TbkNineNineContentView.swift; sourceTree = "<group>"; };
+		02882F65257BB9D9001BA09A /* GenericInfiniteList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericInfiniteList.swift; sourceTree = "<group>"; };
+		0291CC21256E66C7007F2396 /* HomeAnnouncementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAnnouncementView.swift; sourceTree = "<group>"; };
+		0291CC3E256E8324007F2396 /* ShopStoreItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopStoreItemView.swift; sourceTree = "<group>"; };
+		02AE0A7C25C2F484001A56BC /* UserAuthContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthContentView.swift; sourceTree = "<group>"; };
+		02B0AA69250E1D1C00A58048 /* PushLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushLogic.swift; sourceTree = "<group>"; };
+		02B707A724E7DC2700B55512 /* MyGenObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGenObservable.swift; sourceTree = "<group>"; };
+		02B707AB24E8298600B55512 /* ShopSearchDetailContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopSearchDetailContentView.swift; sourceTree = "<group>"; };
+		02BEA3E32590370A00440419 /* MessageContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageContentView.swift; sourceTree = "<group>"; };
+		02BEA3F92590A19600440419 /* UserInfoContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoContentView.swift; sourceTree = "<group>"; };
+		02BF97ED258CEA9500539A4F /* TbkBrandListContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TbkBrandListContentView.swift; sourceTree = "<group>"; };
+		02BF97F0258CF0F900539A4F /* TbkBrandGoodsListContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TbkBrandGoodsListContentView.swift; sourceTree = "<group>"; };
+		02D1BB782584EED90048F710 /* tbkRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = tbkRelease.entitlements; sourceTree = "<group>"; };
+		02D1BBC52584FC990048F710 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlipaySDK.framework; path = iOS/AlipaySDK.framework; sourceTree = "<group>"; };
+		02D1BBD3258501A90048F710 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AlipaySDK.bundle; path = iOS/AlipaySDK.bundle; sourceTree = "<group>"; };
+		02D6784C257F7FD30039CA72 /* TbkOrderContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TbkOrderContentView.swift; sourceTree = "<group>"; };
+		02D6785A257FB15E0039CA72 /* SharedDt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedDt.swift; sourceTree = "<group>"; };
+		02E0889924E5255D0032E6DD /* UtilsLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilsLogin.swift; sourceTree = "<group>"; };
+		02E0889D24E528560032E6DD /* MeContentLoggedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeContentLoggedView.swift; sourceTree = "<group>"; };
+		02E0889F24E528730032E6DD /* MeContentLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeContentLoginView.swift; sourceTree = "<group>"; };
+		02E088A324E529A90032E6DD /* MeContentUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeContentUtils.swift; sourceTree = "<group>"; };
+		02E088A524E52A780032E6DD /* TaoBaoAuthLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaoBaoAuthLogic.swift; sourceTree = "<group>"; };
+		02E088A924E530E00032E6DD /* AppUserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUserSettings.swift; sourceTree = "<group>"; };
+		02E088AD24E6C3820032E6DD /* ItemDetailContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailContentView.swift; sourceTree = "<group>"; };
+		02E64F79258B576800D4D2C0 /* TbkShared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TbkShared.swift; sourceTree = "<group>"; };
+		02E64F7C258B637600D4D2C0 /* TbkSearchResultContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TbkSearchResultContentView.swift; sourceTree = "<group>"; };
+		02E64F7F258B9D4F00D4D2C0 /* TbkSubCategoryContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TbkSubCategoryContentView.swift; sourceTree = "<group>"; };
+		02EAEC1524ED5114009AE997 /* MsgContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MsgContentView.swift; sourceTree = "<group>"; };
+		02EAEC1724ED51EC009AE997 /* MyMsgWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMsgWebView.swift; sourceTree = "<group>"; };
+		02EAEC1B24ED5A7D009AE997 /* MyKeFuWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKeFuWebView.swift; sourceTree = "<group>"; };
+		02EAEC1F24ED657E009AE997 /* MyAllOrderWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAllOrderWebView.swift; sourceTree = "<group>"; };
+		02EAEC2524ED744E009AE997 /* OrderContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderContentView.swift; sourceTree = "<group>"; };
+		02FB8D4A250118AA00262829 /* TBAuthContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBAuthContentView.swift; sourceTree = "<group>"; };
+		43EA3D4B4F7B639114A21032 /* Pods-tbk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tbk.release.xcconfig"; path = "Target Support Files/Pods-tbk/Pods-tbk.release.xcconfig"; sourceTree = "<group>"; };
+		4BF5008C70829E996CCE70F5 /* HomeHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
+		4BF501782BA35178F6C9188A /* WebDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebDemo.swift; sourceTree = "<group>"; };
+		4BF5019BCB3057C1772068EA /* MyItemDetailWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyItemDetailWebView.swift; path = MyUi/MyItemDetailWebView.swift; sourceTree = "<group>"; };
+		4BF501E785FFAA7558828BCC /* MeContentMainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeContentMainView.swift; sourceTree = "<group>"; };
+		4BF508551F85268CE5A2AE16 /* CouponNavButtonsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CouponNavButtonsView.swift; sourceTree = "<group>"; };
+		4BF5096640ADDB0A8632C5ED /* MyWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyWebView.swift; path = MyUi/MyWebView.swift; sourceTree = "<group>"; };
+		4BF50A9C920300678E16941B /* MySearchField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MySearchField.swift; path = MyUi/MySearchField.swift; sourceTree = "<group>"; };
+		4BF50AEF899D0B333A1ABAFA /* ShopSearchContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShopSearchContentView.swift; path = Pages/ShopSearchContentView.swift; sourceTree = "<group>"; };
+		4BF50B881579A6486C06457D /* MyItemSearchWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyItemSearchWebView.swift; path = MyUi/MyItemSearchWebView.swift; sourceTree = "<group>"; };
+		4BF50CFD68B5760E74FD7603 /* MyConsts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyConsts.swift; sourceTree = "<group>"; };
+		4BF50FACF235D663B055A461 /* HomeContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeContentView.swift; sourceTree = "<group>"; };
+		76D32B1025D4F6AACD9C2A97 /* Pods-tbk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tbk.debug.xcconfig"; path = "Target Support Files/Pods-tbk/Pods-tbk.debug.xcconfig"; sourceTree = "<group>"; };
+		F59A80E3D8055D740E427FB0 /* Pods_tbk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tbk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02458DF024D80378007EB2EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0226936424E4203A0051AF6A /* libc++.tbd in Frameworks */,
+				0249C01C24E193B700B96841 /* CoreMotion.framework in Frameworks */,
+				0249C01A24E193AD00B96841 /* CoreTelephony.framework in Frameworks */,
+				0249C01824E193A100B96841 /* libsqlite3.tbd in Frameworks */,
+				0249C01624E1939400B96841 /* libz.tbd in Frameworks */,
+				02D1BBC62584FC990048F710 /* AlipaySDK.framework in Frameworks */,
+				9C047E719094EA3C9B13C9E5 /* Pods_tbk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02458DEA24D80378007EB2EC = {
+			isa = PBXGroup;
+			children = (
+				02D1BBD3258501A90048F710 /* AlipaySDK.bundle */,
+				02458DF524D80378007EB2EC /* tbk */,
+				02458DF424D80378007EB2EC /* Products */,
+				D519F15BEB4F2A86FE6862A3 /* Pods */,
+				6EE3E485DC66D84FF01652D7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		02458DF424D80378007EB2EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02458DF324D80378007EB2EC /* tbk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02458DF524D80378007EB2EC /* tbk */ = {
+			isa = PBXGroup;
+			children = (
+				02882F25257B6D15001BA09A /* AppConst.swift */,
+				02458DF624D80378007EB2EC /* AppDelegate.swift */,
+				027A5736250A20C40053BED1 /* AppImageUtils.swift */,
+				0270AF4F25051E3400F4AC8E /* AppPrivacyWebView.swift */,
+				027A57302509229D0053BED1 /* AppWebViewUtils.swift */,
+				02458DFC24D8037B007EB2EC /* Assets.xcassets */,
+				02458DFA24D80378007EB2EC /* ContentView.swift */,
+				02686B342573A3F80095D5B5 /* CouponContentView.swift */,
+				0231F13A2579DFB000E04839 /* CouponGuessYouLike.swift */,
+				4BF508551F85268CE5A2AE16 /* CouponNavButtonsView.swift */,
+				02882F65257BB9D9001BA09A /* GenericInfiniteList.swift */,
+				0231F14C257A6F4900E04839 /* GroupContentView.swift */,
+				0291CC21256E66C7007F2396 /* HomeAnnouncementView.swift */,
+				4BF50FACF235D663B055A461 /* HomeContentView.swift */,
+				4BF5008C70829E996CCE70F5 /* HomeHeaderView.swift */,
+				0249C02F24E19D2100B96841 /* html */,
+				02458E0424D8037B007EB2EC /* Info.plist */,
+				02E088AD24E6C3820032E6DD /* ItemDetailContentView.swift */,
+				02458E0124D8037B007EB2EC /* LaunchScreen.storyboard */,
+				02E0889D24E528560032E6DD /* MeContentLoggedView.swift */,
+				02E0889F24E528730032E6DD /* MeContentLoginView.swift */,
+				4BF501E785FFAA7558828BCC /* MeContentMainView.swift */,
+				02E088A324E529A90032E6DD /* MeContentUtils.swift */,
+				02BEA3E32590370A00440419 /* MessageContentView.swift */,
+				02EAEC1524ED5114009AE997 /* MsgContentView.swift */,
+				0249C02124E1982E00B96841 /* mtopsdk_configuration.plist */,
+				027F984124EEC35E007EDFEE /* MyActivityIndicator.swift */,
+				02EAEC1F24ED657E009AE997 /* MyAllOrderWebView.swift */,
+				4BF50CFD68B5760E74FD7603 /* MyConsts.swift */,
+				02B707A724E7DC2700B55512 /* MyGenObservable.swift */,
+				02741D90258C9EBD00E0235C /* MyGenSlotHelper.swift */,
+				02741D8B258C99A700E0235C /* MyGenV2Slots.swift */,
+				02741D88258C999800E0235C /* MyGenV2Types.swift */,
+				02741D85258C998A00E0235C /* MyGenV2Urls.swift */,
+				02882F5C257B86C6001BA09A /* MyImageCache.swift */,
+				4BF5019BCB3057C1772068EA /* MyItemDetailWebView.swift */,
+				4BF50B881579A6486C06457D /* MyItemSearchWebView.swift */,
+				02EAEC1B24ED5A7D009AE997 /* MyKeFuWebView.swift */,
+				02EAEC1724ED51EC009AE997 /* MyMsgWebView.swift */,
+				4BF50A9C920300678E16941B /* MySearchField.swift */,
+				4BF5096640ADDB0A8632C5ED /* MyWebView.swift */,
+				02EAEC2524ED744E009AE997 /* OrderContentView.swift */,
+				02458DFE24D8037B007EB2EC /* Preview Content */,
+				0270AF4D25051D7A00F4AC8E /* PrivacyContentView.swift */,
+				02B0AA69250E1D1C00A58048 /* PushLogic.swift */,
+				027F983D24EEAC53007EDFEE /* QuestionSearchField.swift */,
+				02458DF824D80378007EB2EC /* SceneDelegate.swift */,
+				027A57342509DFEC0053BED1 /* ShareContentView.swift */,
+				02D6785A257FB15E0039CA72 /* SharedDt.swift */,
+				4BF50AEF899D0B333A1ABAFA /* ShopSearchContentView.swift */,
+				02B707AB24E8298600B55512 /* ShopSearchDetailContentView.swift */,
+				0291CC3E256E8324007F2396 /* ShopStoreItemView.swift */,
+				0231F14F257A71E700E04839 /* SmsLoginContentView.swift */,
+				02E088A524E52A780032E6DD /* TaoBaoAuthLogic.swift */,
+				027A572E250918670053BED1 /* TaoBaoAuthSheet.swift */,
+				02FB8D4A250118AA00262829 /* TBAuthContentView.swift */,
+				0226933924E27A560051AF6A /* tbk-Bridging-Header.h */,
+				023799F924EA53BF0082A14E /* tbk.entitlements */,
+				025F3B6D257DD855007D4AE2 /* TbkAllCategory.swift */,
+				02BF97F0258CF0F900539A4F /* TbkBrandGoodsListContentView.swift */,
+				02BF97ED258CEA9500539A4F /* TbkBrandListContentView.swift */,
+				025F3B5F257DD5F3007D4AE2 /* TbkFastBuy.swift */,
+				0222627F258AFFD50061A471 /* TbkItemDetailContentView.swift */,
+				02882F5F257B9632001BA09A /* TbkNineNineContentView.swift */,
+				02D6784C257F7FD30039CA72 /* TbkOrderContentView.swift */,
+				025F3B5C257DB9C3007D4AE2 /* TbkRecommendContentView.swift */,
+				02D1BB782584EED90048F710 /* tbkRelease.entitlements */,
+				0266E6922583799A0089BE46 /* TbkSearchContentView.swift */,
+				02E64F7C258B637600D4D2C0 /* TbkSearchResultContentView.swift */,
+				02E64F79258B576800D4D2C0 /* TbkShared.swift */,
+				02E64F7F258B9D4F00D4D2C0 /* TbkSubCategoryContentView.swift */,
+				027A5732250929E30053BED1 /* UsageContentView.swift */,
+				02BEA3F92590A19600440419 /* UserInfoContentView.swift */,
+				027A573C250A562B0053BED1 /* UserLogic.swift */,
+				02E0889924E5255D0032E6DD /* UtilsLogin.swift */,
+				020BA06824FA394F00D3AC20 /* UtilsWebView.swift */,
+				0226933C24E27AC20051AF6A /* vendor.h */,
+				0226933A24E27A570051AF6A /* vendor.m */,
+				4BF501782BA35178F6C9188A /* WebDemo.swift */,
+				027A573A250A51C00053BED1 /* ApiLogic.swift */,
+				0270AF512505200800F4AC8E /* AppCheckNewVersionLogic.swift */,
+				027A5738250A51A70053BED1 /* AppDisplayLogic.swift */,
+				027F984324EED29D007EDFEE /* AppSettingsContentView.swift */,
+				0226934224E2D0650051AF6A /* AppUserKeys.swift */,
+				02E088A924E530E00032E6DD /* AppUserSettings.swift */,
+				0249C01F24E197AD00B96841 /* yw_1222_baichuan.jpg */,
+				02AE0A7C25C2F484001A56BC /* UserAuthContentView.swift */,
+			);
+			path = tbk;
+			sourceTree = "<group>";
+		};
+		02458DFE24D8037B007EB2EC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				02458DFF24D8037B007EB2EC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0249C02F24E19D2100B96841 /* html */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = html;
+			sourceTree = "<group>";
+		};
+		6EE3E485DC66D84FF01652D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02D1BBC52584FC990048F710 /* AlipaySDK.framework */,
+				0226936324E420390051AF6A /* libc++.tbd */,
+				0249C01B24E193B700B96841 /* CoreMotion.framework */,
+				0249C01924E193AD00B96841 /* CoreTelephony.framework */,
+				0249C01724E193A100B96841 /* libsqlite3.tbd */,
+				0249C01524E1939400B96841 /* libz.tbd */,
+				F59A80E3D8055D740E427FB0 /* Pods_tbk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D519F15BEB4F2A86FE6862A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76D32B1025D4F6AACD9C2A97 /* Pods-tbk.debug.xcconfig */,
+				43EA3D4B4F7B639114A21032 /* Pods-tbk.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02458DF224D80378007EB2EC /* tbk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02458E0724D8037B007EB2EC /* Build configuration list for PBXNativeTarget "tbk" */;
+			buildPhases = (
+				6D53B841742CA30BDA2B1436 /* [CP] Check Pods Manifest.lock */,
+				02458DEF24D80378007EB2EC /* Sources */,
+				02458DF024D80378007EB2EC /* Frameworks */,
+				02458DF124D80378007EB2EC /* Resources */,
+				2AF25B20B7D795DFF320AE49 /* [CP] Copy Pods Resources */,
+				FE47BCE8501605229513EBEE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tbk;
+			packageProductDependencies = (
+				023799FB24EABFD70082A14E,
+				0231F149257A3D8400E04839,
+			);
+			productName = tbk;
+			productReference = 02458DF324D80378007EB2EC /* tbk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02458DEB24D80378007EB2EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = tbk;
+				TargetAttributes = {
+					02458DF224D80378007EB2EC = {
+						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
+					};
+				};
+			};
+			buildConfigurationList = 02458DEE24D80378007EB2EC /* Build configuration list for PBXProject "tbk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 02458DEA24D80378007EB2EC;
+			packageReferences = (
+				023799FA24EABFD70082A14E,
+				0231F148257A3D8400E04839,
+			);
+			productRefGroup = 02458DF424D80378007EB2EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02458DF224D80378007EB2EC /* tbk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02458DF124D80378007EB2EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02D1BBD4258501A90048F710 /* AlipaySDK.bundle in Resources */,
+				02458E0324D8037B007EB2EC /* LaunchScreen.storyboard in Resources */,
+				02458E0024D8037B007EB2EC /* Preview Assets.xcassets in Resources */,
+				02458DFD24D8037B007EB2EC /* Assets.xcassets in Resources */,
+				0249C02224E1982E00B96841 /* mtopsdk_configuration.plist in Resources */,
+				0249C02024E197AD00B96841 /* yw_1222_baichuan.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AF25B20B7D795DFF320AE49 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tbk/Pods-tbk-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tbk/Pods-tbk-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tbk/Pods-tbk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D53B841742CA30BDA2B1436 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tbk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE47BCE8501605229513EBEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tbk/Pods-tbk-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tbk/Pods-tbk-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tbk/Pods-tbk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02458DEF24D80378007EB2EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E088A624E52A780032E6DD /* TaoBaoAuthLogic.swift in Sources */,
+				02E64F7D258B637600D4D2C0 /* TbkSearchResultContentView.swift in Sources */,
+				027A5737250A20C40053BED1 /* AppImageUtils.swift in Sources */,
+				02BF97F1258CF0F900539A4F /* TbkBrandGoodsListContentView.swift in Sources */,
+				02FB8D4B250118AA00262829 /* TBAuthContentView.swift in Sources */,
+				02D6784D257F7FD30039CA72 /* TbkOrderContentView.swift in Sources */,
+				027A573B250A51C00053BED1 /* ApiLogic.swift in Sources */,
+				02D6785B257FB15F0039CA72 /* SharedDt.swift in Sources */,
+				02458DF724D80378007EB2EC /* AppDelegate.swift in Sources */,
+				02458DF924D80378007EB2EC /* SceneDelegate.swift in Sources */,
+				02E088A024E528730032E6DD /* MeContentLoginView.swift in Sources */,
+				027F984224EEC35E007EDFEE /* MyActivityIndicator.swift in Sources */,
+				02E64F80258B9D4F00D4D2C0 /* TbkSubCategoryContentView.swift in Sources */,
+				0270AF5025051E3400F4AC8E /* AppPrivacyWebView.swift in Sources */,
+				02882F26257B6D15001BA09A /* AppConst.swift in Sources */,
+				0231F150257A71E700E04839 /* SmsLoginContentView.swift in Sources */,
+				0291CC22256E66C7007F2396 /* HomeAnnouncementView.swift in Sources */,
+				0226934324E2D0650051AF6A /* AppUserKeys.swift in Sources */,
+				02741D86258C998A00E0235C /* MyGenV2Urls.swift in Sources */,
+				02458DFB24D80378007EB2EC /* ContentView.swift in Sources */,
+				4BF500BA8FC60B24E5271B07 /* WebDemo.swift in Sources */,
+				02E088AA24E530E00032E6DD /* AppUserSettings.swift in Sources */,
+				02882F60257B9632001BA09A /* TbkNineNineContentView.swift in Sources */,
+				02EAEC1624ED5114009AE997 /* MsgContentView.swift in Sources */,
+				027F983E24EEAC53007EDFEE /* QuestionSearchField.swift in Sources */,
+				02882F66257BB9D9001BA09A /* GenericInfiniteList.swift in Sources */,
+				02BEA3E42590370A00440419 /* MessageContentView.swift in Sources */,
+				02882F5D257B86C6001BA09A /* MyImageCache.swift in Sources */,
+				02EAEC2024ED657E009AE997 /* MyAllOrderWebView.swift in Sources */,
+				025F3B60257DD5F3007D4AE2 /* TbkFastBuy.swift in Sources */,
+				02E088AE24E6C3820032E6DD /* ItemDetailContentView.swift in Sources */,
+				027A573D250A562B0053BED1 /* UserLogic.swift in Sources */,
+				02BEA3FA2590A19600440419 /* UserInfoContentView.swift in Sources */,
+				0226933B24E27A570051AF6A /* vendor.m in Sources */,
+				025F3B5D257DB9C3007D4AE2 /* TbkRecommendContentView.swift in Sources */,
+				02741D8C258C99A700E0235C /* MyGenV2Slots.swift in Sources */,
+				02686B352573A3F80095D5B5 /* CouponContentView.swift in Sources */,
+				0231F13B2579DFB000E04839 /* CouponGuessYouLike.swift in Sources */,
+				4BF50F0ACFE84C6616FB0B27 /* HomeContentView.swift in Sources */,
+				02EAEC1C24ED5A7D009AE997 /* MyKeFuWebView.swift in Sources */,
+				0266E6932583799A0089BE46 /* TbkSearchContentView.swift in Sources */,
+				02E088A424E529A90032E6DD /* MeContentUtils.swift in Sources */,
+				025F3B6E257DD855007D4AE2 /* TbkAllCategory.swift in Sources */,
+				0231F14D257A6F4900E04839 /* GroupContentView.swift in Sources */,
+				0270AF522505200800F4AC8E /* AppCheckNewVersionLogic.swift in Sources */,
+				4BF50045C55B57E351315DF8 /* MeContentMainView.swift in Sources */,
+				027A57312509229D0053BED1 /* AppWebViewUtils.swift in Sources */,
+				4BF50F66A2C5134142A970FB /* ShopSearchContentView.swift in Sources */,
+				02EAEC2624ED744E009AE997 /* OrderContentView.swift in Sources */,
+				4BF50BF420CBF373CF9DD45A /* HomeHeaderView.swift in Sources */,
+				02B707A824E7DC2700B55512 /* MyGenObservable.swift in Sources */,
+				02AE0A7D25C2F484001A56BC /* UserAuthContentView.swift in Sources */,
+				027A5739250A51A70053BED1 /* AppDisplayLogic.swift in Sources */,
+				0291CC3F256E8324007F2396 /* ShopStoreItemView.swift in Sources */,
+				02226280258AFFD50061A471 /* TbkItemDetailContentView.swift in Sources */,
+				027F984424EED29D007EDFEE /* AppSettingsContentView.swift in Sources */,
+				4BF50FE81F740E6BECBD256B /* CouponNavButtonsView.swift in Sources */,
+				02B0AA6A250E1D1C00A58048 /* PushLogic.swift in Sources */,
+				02E0889A24E5255D0032E6DD /* UtilsLogin.swift in Sources */,
+				02B707AC24E8298700B55512 /* ShopSearchDetailContentView.swift in Sources */,
+				4BF50461181A11FF82B29C03 /* MySearchField.swift in Sources */,
+				02E0889E24E528560032E6DD /* MeContentLoggedView.swift in Sources */,
+				02BF97EE258CEA9500539A4F /* TbkBrandListContentView.swift in Sources */,
+				02741D89258C999800E0235C /* MyGenV2Types.swift in Sources */,
+				027A5733250929E30053BED1 /* UsageContentView.swift in Sources */,
+				0270AF4E25051D7A00F4AC8E /* PrivacyContentView.swift in Sources */,
+				4BF5025FB8B913B723E12DC2 /* MyWebView.swift in Sources */,
+				02741D91258C9EBD00E0235C /* MyGenSlotHelper.swift in Sources */,
+				027A572F250918670053BED1 /* TaoBaoAuthSheet.swift in Sources */,
+				02E64F7A258B576800D4D2C0 /* TbkShared.swift in Sources */,
+				4BF5016386E0802F301A9604 /* MyItemDetailWebView.swift in Sources */,
+				4BF50A4622B68B7CC004E2B8 /* MyItemSearchWebView.swift in Sources */,
+				02EAEC1824ED51EC009AE997 /* MyMsgWebView.swift in Sources */,
+				4BF500B859CC8CAC26FDAFE3 /* MyConsts.swift in Sources */,
+				027A57352509DFEC0053BED1 /* ShareContentView.swift in Sources */,
+				020BA06924FA394F00D3AC20 /* UtilsWebView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		02458E0124D8037B007EB2EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02458E0224D8037B007EB2EC /* Base */,
+				02458E0A24D80440007EB2EC /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02458E0524D8037B007EB2EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		02458E0624D8037B007EB2EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02458E0824D8037B007EB2EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76D32B1025D4F6AACD9C2A97 /* Pods-tbk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = tbk/tbk.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 100;
+				DEVELOPMENT_ASSET_PATHS = "\"tbk/Preview Content\"";
+				DEVELOPMENT_TEAM = U2SR5MC2F3;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iOS",
+				);
+				INFOPLIST_FILE = tbk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lstdc++",
+					"-ObjC",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AlibabaAuthEntrance\"",
+					"-framework",
+					"\"AlibabaAuthExt\"",
+					"-framework",
+					"\"AlibabaAuthSDK\"",
+					"-framework",
+					"\"AlibcLinkPartnerSDK\"",
+					"-framework",
+					"\"AlibcTradeBiz\"",
+					"-framework",
+					"\"AlibcTradeSDK\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreMotion\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"MtopSDK\"",
+					"-framework",
+					"\"SGAVMP\"",
+					"-framework",
+					"\"SGMain\"",
+					"-framework",
+					"\"SGMiddleTier\"",
+					"-framework",
+					"\"SGSecurityBody\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SecurityGuardSDK\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"UTDID\"",
+					"-framework",
+					"\"UTMini\"",
+					"-framework",
+					"\"WindVane\"",
+					"-framework",
+					"\"WindVaneBasic\"",
+					"-framework",
+					"\"WindVaneCore\"",
+					"-framework",
+					"\"mtopcoreopen\"",
+					"-framework",
+					"\"mtopext\"",
+					"-weak_framework",
+					"\"AdSupport\"",
+					"-weak_framework",
+					"\"WebKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiyutech.tbk;
+				PRODUCT_NAME = tbk;
+				SWIFT_OBJC_BRIDGING_HEADER = "tbk/tbk-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		02458E0924D8037B007EB2EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43EA3D4B4F7B639114A21032 /* Pods-tbk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = tbk/tbkRelease.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 100;
+				DEVELOPMENT_ASSET_PATHS = "\"tbk/Preview Content\"";
+				DEVELOPMENT_TEAM = U2SR5MC2F3;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iOS",
+				);
+				INFOPLIST_FILE = tbk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lstdc++",
+					"-ObjC",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AlibabaAuthEntrance\"",
+					"-framework",
+					"\"AlibabaAuthExt\"",
+					"-framework",
+					"\"AlibabaAuthSDK\"",
+					"-framework",
+					"\"AlibcLinkPartnerSDK\"",
+					"-framework",
+					"\"AlibcTradeBiz\"",
+					"-framework",
+					"\"AlibcTradeSDK\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreMotion\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"MtopSDK\"",
+					"-framework",
+					"\"SGAVMP\"",
+					"-framework",
+					"\"SGMain\"",
+					"-framework",
+					"\"SGMiddleTier\"",
+					"-framework",
+					"\"SGSecurityBody\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SecurityGuardSDK\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"UTDID\"",
+					"-framework",
+					"\"UTMini\"",
+					"-framework",
+					"\"WindVane\"",
+					"-framework",
+					"\"WindVaneBasic\"",
+					"-framework",
+					"\"WindVaneCore\"",
+					"-framework",
+					"\"mtopcoreopen\"",
+					"-framework",
+					"\"mtopext\"",
+					"-weak_framework",
+					"\"AdSupport\"",
+					"-weak_framework",
+					"\"WebKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiyutech.tbk;
+				PRODUCT_NAME = tbk;
+				SWIFT_OBJC_BRIDGING_HEADER = "tbk/tbk-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02458DEE24D80378007EB2EC /* Build configuration list for PBXProject "tbk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02458E0524D8037B007EB2EC /* Debug */,
+				02458E0624D8037B007EB2EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02458E0724D8037B007EB2EC /* Build configuration list for PBXNativeTarget "tbk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02458E0824D8037B007EB2EC /* Debug */,
+				02458E0924D8037B007EB2EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0231F148257A3D8400E04839 = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/siteline/SwiftUIRefresh";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.3;
+			};
+		};
+		023799FA24EABFD70082A14E = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-log.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0231F149257A3D8400E04839 = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0231F148257A3D8400E04839;
+			productName = SwiftUIRefresh;
+		};
+		023799FB24EABFD70082A14E = {
+			isa = XCSwiftPackageProductDependency;
+			package = 023799FA24EABFD70082A14E;
+			productName = Logging;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 02458DEB24D80378007EB2EC /* Project object */;
+}

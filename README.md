@@ -1,2 +1,5 @@
-# QiYuTKiOS
-奇遇淘客 iOS 客户端
+# 简介
+
+奇遇淘客 iOS APP
+
+

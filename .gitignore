@@ -1,0 +1,9 @@
+.idea
+.build
+build
+.DS_Store
+Pods
+tbk.xcodeproj/xcuserdata/
+tbk.xcworkspace/xcuserdata/
+TaoBaoKe.iOS.iml
+
