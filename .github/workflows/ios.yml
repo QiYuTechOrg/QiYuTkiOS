@@ -1,0 +1,26 @@
+name: iOS
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+
+env:
+  SCHEME: tbk
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install Pod Dep
+        run: pod update
+
+      # Xcode build
+      # https://developer.apple.com/library/archive/technotes/tn2339/_index.html
+      - name: xcode build
+        run: xcodebuild -scheme ${{ env.SCHEME }} build
