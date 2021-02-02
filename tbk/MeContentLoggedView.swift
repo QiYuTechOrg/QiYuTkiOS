@@ -125,7 +125,7 @@ struct MeContentLoggedView: View {
         HStack {
             MeContentUtils.makeSpacer()
             MeContentUtils.vStackWrapper(v: VStack {
-                MeContentUtils.lineGen(img: Image("me_taobao_auth"), text: Text("淘宝授权")).onTapGesture {
+                MeContentUtils.lineGen(img: Image(systemName: "person.circle"), text: Text("淘宝授权")).onTapGesture {
                     DispatchQueue.main.async {
                         let tb = TaoBaoAuthLogic(controller: self.getRootViewController())
                         tb.auth(showMsg: self.$toastShow, tipMsg: self.$toastMsg, sheet: self.$activitySheet, tbUrl: self.$tbAuthUrl)
