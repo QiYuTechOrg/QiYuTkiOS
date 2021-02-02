@@ -23,4 +23,5 @@ jobs:
       # Xcode build
       # https://developer.apple.com/library/archive/technotes/tn2339/_index.html
       - name: xcode build
-        run: xcodebuild -scheme ${{ env.SCHEME }} build -configuration Release CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=no
+        run: xcodebuild -workspace tbk.xcworkspace -scheme ${{ env.SCHEME }} build -configuration Release CODE_SIGNING_REQUIRED=no
+
