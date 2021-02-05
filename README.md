@@ -3,18 +3,16 @@
 ![iOS](https://github.com/QiYuTechDev/QiYuTkiOS/workflows/iOS/badge.svg?branch=main)
 
 
-## 奇遇淘客 Android 版
+## 奇遇淘客代码库
 
-[Android 版](https://github.com/QiYuTechDev/QiYuTkAndroid)
+* [奇遇淘客 Android 版](https://github.com/QiYuTechDev/QiYuTkAndroid)
+* [奇遇淘客 服务器端](https://github.com/QiYuTechDev/QiYuTkServer)
 
 
 ## 博客文章
 
 [发布记录](https://blog.qiyutech.tech/202102/02_tbk_ios/)
 
-## 提示
-
-	服务器端 的代码正在整理中, 整理完成之后也会提交到 Github
 
 ## 编译环境
 
