@@ -21,5 +21,5 @@
 
 ### XCode 版本
 
-	Version 12.4 (12D4e)
+	Version 12.5 (12E262)
 
