@@ -1,7 +1,7 @@
 // 这个文件是由于 openapi 自动生成的
 // 请不要使用手工编辑
 
-let gAppUrls = "http://api.taidimall.com"
+let gAppUrls = "http://www.taidimall.com/api"
 
 struct AppUrls {
 
